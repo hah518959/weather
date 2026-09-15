@@ -1,0 +1,44 @@
+.out_header {
+  width: 100vw;
+  height: 50px;
+  background-color: green;
+}
+
+header {
+  width: 1500px;
+  height: 50px;
+  background-color: yellowgreen;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  transform: translate(-50%);
+  left: 50%;
+  top: 0;
+}
+
+.logo>a {
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+.out_main {
+  width: 100vw;
+  height: 1000px;
+  background-color: #121314;
+}
+
+.main {
+  width: 1500px;
+  height: 1000px;
+  background-color: #313539;
+  margin: 0 auto;
+}
